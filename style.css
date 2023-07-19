@@ -55,6 +55,21 @@ body{
     margin-right: 5px;
   }
  /* CSS styling for the navigation menu end*/
+ /* Media query for mobile devices */
+ @media (max-width: 576px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  li {
+    margin-right: 10px;
+  }
+  li a {
+    font-size: 1rem;
+  }
+  .social-button {
+    font-size: 1rem;
+  }
+ }
 
  /* CSS styling for the banner section starts*/
 .banner{
@@ -120,7 +135,25 @@ padding-left: 600px;
 .btn{
   padding-top: 40px;
 }
-
+/* Media query for 576px devices */
+@media (max-width: 576px) {
+  .banner-content {
+    margin-top: 20px;
+  }
+  .banner-title-1 {
+    font-size: 2rem;
+  }
+  .banner-tittle-main {
+    font-size: 4.5rem;
+  }
+  .banner-description-list {
+    font-size: 1rem;
+  }
+  .banner-images {
+    padding-left: 0;
+  }
+}
+/*online game section css */
 .game-title{
   justify-content: center;
   color: #0B0223;
@@ -149,7 +182,7 @@ padding-left: 600px;
 }
 
 
-
+/* play instantly section css */
 .banner-2{
   display: flex;
   padding-left: 300px;
@@ -184,7 +217,7 @@ padding-right: 200px;
   flex-shrink: 0;
 
 }
-
+/* Games section css */
 .games_1{
   align-content: space-between;
   justify-content: space-evenly;
@@ -192,23 +225,54 @@ padding-right: 200px;
   display: flex;
   padding-bottom: 100px;
 }
-
-.footer{
-  background: #0B0223;
-  align-items: center;
+ /* footer section css */
+ .footer {
+  background-color:#0B0223;
+  color: #fff;
+  padding: 20px;
   text-align: center;
 }
-.footer-title{
-  text-align: center;
-  align-items: center;
-  color: #FFF;
-  font-size: 2.8125rem;
-  font-weight: 700;
-}
-.footer-nav{
-  color: #FFF;
-  align-items: center;
-  text-align: center;
-  font-size: 1.125rem;
 
+.footer-logo {
+  max-width: 100px;
+  display: inline-block;
+}
+
+.footer-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.footer-menu {
+  color: #FFF;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; 
+  justify-content: center;
+}
+
+.footer-menu li {
+  color: #FFF;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  margin: 0 5px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 20px;
 }
