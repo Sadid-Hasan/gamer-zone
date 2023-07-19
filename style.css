@@ -136,6 +136,7 @@ padding-left: 600px;
   color: #FFF;
   font-size: 1.25rem;
   box-shadow: none;
+  outline: none;
   }
   .go-rogue{
     padding: 1.3125rem 2.5rem;
@@ -145,8 +146,10 @@ padding-left: 600px;
     color: #FFF;
     font-size: 1.25rem;
     box-shadow: none;
+    outline: none;
+    
     }
-.btn{
+.button-area{
   padding-top: 40px;
 }
 /* Media query for mobile devices */
@@ -238,7 +241,6 @@ padding-right: 200px;
   bottom: 200px;
   width: 19.90625rem;
   height: 22.81769rem;
-  flex-shrink: 0;
 
 }
 /* Media Query for mobile devices */
