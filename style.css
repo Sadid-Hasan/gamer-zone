@@ -259,7 +259,7 @@ padding-right: 200px;
   right: -5px;
   bottom: -5px;
   border: 2px solid rgb(255, 0, 191); 
-  border-radius: 5px;
+  border-radius: 20px;
   pointer-events: none; 
 }
  /* footer section css */
@@ -276,7 +276,6 @@ padding-right: 200px;
 }
 
 .footer-title {
-  font-size: 20px;
   margin-bottom: 10px;
   display: inline-block;
   margin-left: 10px;
