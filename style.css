@@ -1,0 +1,58 @@
+body{
+    font-family: Work sans;
+}
+
+ /* CSS styling for the navigation menu start*/
+ nav {
+    display: flex;
+    align-items: center;
+    background-color:#fff;
+    padding: 10px;
+  }
+  .logo {
+    margin-right: 20px;
+  }
+
+  .logo img {
+    height: 50px ;
+  }
+
+  .title {
+    font-size: 2.8125rem;
+    margin-right: auto;
+  }
+
+  ul {
+    font-size: 1.125rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  li {
+    margin-right: 20px;
+  }
+  li a {
+    color: #3C354F;
+    text-decoration: none;
+    font-size: 1.125rem;
+  }
+  .social-button {
+    display: flex;
+    align-items: center;
+    background: rgba(11, 2, 35, 0.10);
+    color: #3C354F;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    font-size: 1.125rem;
+    text-decoration: none;
+  }
+  .social-button i {
+    margin-right: 10px;
+  }
+  .social-button span {
+    margin-right: 5px;
+  }
+ /* CSS styling for the navigation menu end*/
+ 
