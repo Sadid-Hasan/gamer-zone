@@ -1,3 +1,4 @@
+/* shared css*/
 body{
     font-family: Work sans;
 }
@@ -134,6 +135,7 @@ padding-left: 600px;
   background:#FF42A5;
   color: #FFF;
   font-size: 1.25rem;
+  box-shadow: none;
   }
   .go-rogue{
     padding: 1.3125rem 2.5rem;
@@ -142,36 +144,33 @@ padding-left: 600px;
     background:#4EC5F7;
     color: #FFF;
     font-size: 1.25rem;
+    box-shadow: none;
     }
 .btn{
   padding-top: 40px;
 }
-/* Media query for 576px devices */
-@media (max-width: 576px) {
-  .banner-content {
-    margin-top: 20px;
+/* Media query for mobile devices */
+@media screen and (max-width: 576px) {
+  .banner {
+    flex-direction: column;
   }
-  .banner-title-1 {
-    font-size: 2rem;
-  }
-  .banner-tittle-main {
-    font-size: 4.5rem;
-  }
-  .banner-description-list {
-    font-size: 1rem;
-  }
+
   .banner-images {
     padding-left: 0;
+    text-align: center;
+  }
+
+  .button-area {
+    padding-top: 20px;
   }
 }
-/*online game section css */
+/*CSS styling for online game section */
 .game-title{
   justify-content: center;
   color: #0B0223;
   text-align: center;
   font-family: Work Sans;
   font-size: 3rem;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
@@ -181,7 +180,6 @@ padding-left: 600px;
   text-align: center;
   font-family: Work Sans;
   font-size: 1 rem;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.875rem; 
 }
@@ -191,9 +189,23 @@ padding-left: 600px;
   align-items: center;
   justify-content: space-evenly;
 }
+/* Media Query for mobile devices */
+@media screen and (max-width: 576px) {
+  .game-card {
+    flex-direction: column;
+  }
+  
+  .game-title {
+    font-size: 2.5rem;
+  }
+  
+  .game-text {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+}
 
-
-/* play instantly section css */
+/*  CSS styling for play instantly section */
 .banner-2{
   display: flex;
   padding-left: 300px;
@@ -201,7 +213,6 @@ padding-left: 600px;
 .heading-banner{
   padding-top: 200px;
   text-align: right;
-  font-family: Work Sans;
   font-size: 2rem;
   font-weight: 700;
   padding-right: 200px;
@@ -210,7 +221,6 @@ padding-left: 600px;
   width: 22.0625rem;
   color: #534C64;
   text-align: center;
-  font-family: Work Sans;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
@@ -228,7 +238,33 @@ padding-right: 200px;
   flex-shrink: 0;
 
 }
-/* Games section css */
+/* Media Query for mobile devices */
+@media screen and (max-width: 576px) {
+  .banner-2 {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .heading-banner {
+    padding-top: 100px;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .title-description {
+    width: auto;
+    padding: 20px;
+  }
+
+  .banner-2-image,
+  .banner-2-image-2 {
+    padding-right: 0;
+    margin-bottom: 50px;
+    align-self: center;
+  }
+}
+/* CSS styling for Games section */
 .picture-list {
   list-style: none;
   padding: 0;
@@ -273,7 +309,17 @@ padding-right: 200px;
   border-radius: 20px;
   pointer-events: none; 
 }
- /* footer section css */
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+  .picture-list {
+    justify-content: center;
+  }
+
+  .picture-item {
+    width: calc(33.33% - 20px);
+  }
+}
+ /* CSS styling for footer section */
  .footer {
   background-color:#0B0223;
   color: #fff;
