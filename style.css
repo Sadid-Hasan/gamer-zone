@@ -191,5 +191,24 @@ padding-right: 200px;
   height: auto;
   display: flex;
   padding-bottom: 100px;
+}
+
+.footer{
+  background: #0B0223;
+  align-items: center;
+  text-align: center;
+}
+.footer-title{
+  text-align: center;
+  align-items: center;
+  color: #FFF;
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+.footer-nav{
+  color: #FFF;
+  align-items: center;
+  text-align: center;
+  font-size: 1.125rem;
 
 }
