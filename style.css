@@ -55,4 +55,75 @@ body{
     margin-right: 5px;
   }
  /* CSS styling for the navigation menu end*/
- 
+
+ /* CSS styling for the banner section starts*/
+.banner{
+  display: flex;
+  align-content: space-around;
+  background-image: url('images/Group\ 14.png');
+  width: auto;
+  height: auto;
+}
+.banner-content
+{
+  align-content: space-around;
+}
+.banner-title-1{
+  color: #0B0223;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.banner-tittle-main{
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 5.9375rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-description-list{
+  justify-items: left;
+  color: #534C64;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: normal;
+}
+.banner-images{
+padding-left: 600px;
+}
+.sign-in{
+  padding: 1.3125rem 2.5rem;
+  gap: 0.625rem;
+  border-radius: 3rem;
+  background:#FF42A5;
+  color: #FFF;
+  font-size: 1.25rem;
+  }
+  .go-rogue{
+    padding: 1.3125rem 2.5rem;
+    gap: 0.625rem;
+    border-radius: 3rem;
+    background:#4EC5F7;
+    color: #FFF;
+    font-size: 1.25rem;
+    }
+.btn{
+  padding-top: 40px;
+}
+
+
+
+
+
+
+
