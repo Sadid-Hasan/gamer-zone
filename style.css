@@ -188,7 +188,10 @@ padding-left: 600px;
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
+  transition: transform 0.3s ease;
 }
+.game-card:hover {
+  transform: scale(1.1);}
 /* Media Query for mobile devices */
 @media screen and (max-width: 576px) {
   .game-card {
