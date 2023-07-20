@@ -315,7 +315,7 @@ padding-right: 200px;
   pointer-events: none; 
 }
 /* Media Query for responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   .picture-list {
     justify-content: center;
   }
